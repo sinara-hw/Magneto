@@ -18,8 +18,8 @@ RevisionNamingSchemeGUID=
 Name=Magneto.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
-VariantScope=0
+VariantName=DIOT
+VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=\\ps2\WBEP062 RICOH PCL6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -107,15 +107,41 @@ Configuration3_Item1=CaptionAsName
 Configuration3_Name2=ForceUpdateSettings
 Configuration3_Item2=False
 Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration3_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1513|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration3_Name4=GroupOrder
-Configuration3_Item4=Comment=True|Footprint=True|LibRef=True
+Configuration3_Item4=Comment=True|Footprint=True
 Configuration3_Name5=SortOrder
 Configuration3_Item5=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name6=VisibleOrder
-Configuration3_Item6=Comment=100|Description=100|Designator=100|Footprint=100|Part Number=169|LibRef=330|Quantity=94|Manufacturer Part Number=100|Manufacturer1 Part Number=100
+Configuration3_Item6=Designator=100|Description=100|Footprint=100|Comment=100|Quantity=94|Part Number=169|Manufacturer1=100|Manufacturer1 Part Number=100
 Configuration3_Name7=VisibleOrder_Flat
-Configuration3_Item7=Comment=100|Description=100|Designator=100|Footprint=100|Part Number=169|LibRef=330|Quantity=94|Manufacturer Part Number=100|Manufacturer1 Part Number=100
+Configuration3_Item7=Designator=100|Description=100|Footprint=100|Comment=100|Quantity=94|Part Number=169|Manufacturer1=100|Manufacturer1 Part Number=100
+OutputType4=Gerber
+OutputName4=Gerber Files
+OutputCategory4=Fabrication
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=2
+OutputEnabled4_OutputMedium4=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=AYIWLANB|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777219~1,16777218~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908299~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Magneto.PCBDOC
+OutputType5=NC Drill
+OutputName5=NC Drill Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=3
+OutputEnabled5_OutputMedium4=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Magneto.PCBDOC
 
 [PublishSettings]
 OutputFilePath2=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\Magneto.pdf
@@ -145,9 +171,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\
+OutputFilePath3=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Project Outputs for Magneto\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Zotino
+OutputBasePath3=Project Outputs for Magneto
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -160,7 +186,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Zotino
+OutputBasePath4=Project Outputs for Magneto
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -199,7 +225,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\Magneto.pdf
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\
+RelativeOutputPath3=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Project Outputs for Magneto\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
