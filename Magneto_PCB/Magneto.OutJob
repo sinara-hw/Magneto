@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Magneto.OutJob
+Name=
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=DIOT
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=\\ps2\WBEP062 RICOH PCL6
+TargetPrinter=Brother DCP-L2540DN series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -142,6 +142,19 @@ OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Magneto.PCBDOC
+OutputType6=Test Points
+OutputName6=Test Point Report
+OutputCategory6=Fabrication
+OutputDocumentPath6=Magneto.PCBDOC
+OutputVariantName6=
+OutputEnabled6=1
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=4
+OutputEnabled6_OutputMedium4=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=AdjacencyDistance=250000|GenerateCSVFormat=True|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=True|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=57|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=False|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Magneto\Magneto_PCB\Magneto.PCBDOC
 
 [PublishSettings]
 OutputFilePath2=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\Magneto.pdf
@@ -171,7 +184,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Project Outputs for Magneto\
+OutputFilePath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Magneto\Magneto_PCB\Project Outputs for Magneto\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for Magneto
 OutputPathMedia3=
@@ -183,7 +196,7 @@ OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for Magneto
@@ -225,9 +238,9 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\k.belewicz\Downloads\Magneto-master\Magneto_PCB\Project Outputs for Zotino\Magneto.pdf
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\k.belewicz\Desktop\Magneto\Magneto_PCB\Project Outputs for Magneto\
-OpenOutputs3=1
-AddToProject3=1
+RelativeOutputPath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\Magneto\Magneto_PCB\Project Outputs for Magneto\
+OpenOutputs3=0
+AddToProject3=0
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
